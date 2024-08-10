@@ -3,12 +3,15 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
-html {
-  font-size: 62.5%;
-  box-sizing: border-box;
+:root{
+  font-size: 62.5%; /* Setting 1rem as 10px */
+}
+
+body {
+  font-size: 1.6rem;
 }
 
 body {
@@ -120,19 +123,19 @@ h1 {
 
 
 @media screen and (max-width:700px) {
-    html{
+    :root{
         font-size: 55.5%;
     }
 }
 
 @media screen and (max-width:500px) {
-    html{
+    :root{
         font-size: 50.5%;
     }
 }
 
 @media screen and (max-width:400) {
-    html{
+    :root{
         font-size: 45.5%;
     }
 }
