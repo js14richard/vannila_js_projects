@@ -27,7 +27,7 @@ body {
 .show-modal-buttons{
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
 }
 
@@ -101,17 +101,17 @@ p {
         font-size: 55%;
     }
     .modal{
-        width: 50;
+        width: 85%;
     }
 }
 
 
-@media screen and (max-width:700px){
+@media screen and (max-width:500px){
     :root{
         font-size: 50%;
     }
     .modal{
-        width: 50;
+        width: 95%;
         top:70%;
     }
 }
