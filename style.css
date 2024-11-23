@@ -33,6 +33,7 @@ h2{
     text-align: center;
     padding:.5rem;
     margin: 2rem;
+    height: 30rem;
     border-radius: 1rem;
     object-fit: fill;
     box-shadow: 0 6px 12px #00000033;
@@ -40,7 +41,9 @@ h2{
 }
 
 .project-image{
-    width: 45rem;
+  height: 80%;
+  width: 45rem;
+
 }
 
 .project-container:hover{
